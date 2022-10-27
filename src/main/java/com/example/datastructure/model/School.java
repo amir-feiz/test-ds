@@ -1,9 +1,6 @@
 package com.example.datastructure.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -16,6 +13,7 @@ import java.util.List;
 @AllArgsConstructor
 @ToString
 @Getter
+@Setter
 public class School {
     @Id
     @GeneratedValue
